@@ -1,6 +1,10 @@
 {
   "name": "flexa",
   "version": "0.1.0",
+<<<<<<< HEAD
+=======
+  "homepage": "https://ankitjha2023.github.io/flexa",
+>>>>>>> 6ccbcf4c1abd45c1c6a1d8e735bc6f7c12683073
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
