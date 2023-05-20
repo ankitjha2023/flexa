@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+::-webkit-scrollbar{
+    display: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p, a,h2,button{
+    font-family: 'Roboto', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.feature:hover{
+    background-color:#00b894;
+    color: white;
+  
+    transition: 0.5s;
+    transform: translateY(-8px);
+   
 }
-
-.App-link {
-  color: #61dafb;
+.client{
+    transition: transform 0.3s ease-in;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.client:hover{
+    transform: translateY(-5px);
+    
 }
